@@ -52,8 +52,6 @@ const App = () => {
     }
     if (l3 % 6 == 5) {
       setStatus(rel_status[5]);
-    } else {
-      setStatus("Please Enter valid input");
     }
 
     console.log(l3);
